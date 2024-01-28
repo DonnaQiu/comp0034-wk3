@@ -3,8 +3,7 @@ import csv
 import sqlite3
 import pandas as pd
 from pathlib import Path
-
-from paralympics import Region, Event
+from paralympics.models import Region, Event
 
 # File locations
 db_file = Path(__file__).parent.joinpath("paralympics.sqlite")
